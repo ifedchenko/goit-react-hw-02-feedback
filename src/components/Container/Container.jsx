@@ -8,5 +8,5 @@ export const Container = ({ children }) => {
 };
 
 Container.propTypes = {
-  children: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired,
 };
